@@ -1,1 +1,4 @@
-This is Ruby assignment for Doximity.
+This is the Ruby assignment for Doximity.
+I have made the following assumptions:
+1-The room temperature must not be less than "Desired Temperature" minus 2 degrees or more than "Desired Temperature" plus 2 degrees.
+2-Cooler() function will be called once room temperature reaches "Desired Temperature" plus 2 degrees.
