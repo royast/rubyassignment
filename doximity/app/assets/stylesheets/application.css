@@ -1,0 +1,97 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*/
+
+
+tr{ 
+ margin:5px;
+ background-color: #eeeff2; 
+ border-spacing:1px;
+ padding: 2px 10px;  
+}
+
+td{
+padding: 10px 5px 10px 5px; 
+background-color: #CAE1FF; 
+}
+
+.TableCSS{
+  border-color: black;
+  border-width: 5px;
+  padding:10px;
+  border-style:solid;
+  align:center;
+  position:center;
+  display:inline-table;
+  margin:auto;
+  background-color:#CAE1FF;
+}
+
+
+
+.center
+{
+margin:0px 10px;
+width:auto;
+padding: 10px 0px;
+position: center;
+align:center;
+text-align:center;
+}
+
+.tag_button input
+{
+  background:  none repeat scroll 0 0 #F8F8F8;
+  border-color: black;
+  border-radius: 4px 4px 4px 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-right-width: 2px;
+  color: black;
+  text-align: center;
+  width: 90px;
+  align:center;
+  display: inline;
+  text-decoration: none;
+  color: black;
+  height: 30px;
+  text-align: center;
+  font-size: 11px;
+  margin:2px;
+
+}
+
+.tag_button input:hover{
+  cursor: pointer;
+  box-shadow: 0 0px 0px #87ADFF inset, 0 0px 0 #1D2C4D, 0px 0px 0 #1F3053, 1px 1px 0px 0px #111111;
+}
+
+
+.content {
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #CAE1FF  ;
+    border-color: -moz-use-text-color black black;
+    border-image: none;
+    border: 2px solid black;
+    font: 0.9em/1.3em "bitstream vera sans",verdana,sans-serif;
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
+    margin:0px 90px;
+    min-width: 850px;
+    /*width : 1183px;*/
+	
+}

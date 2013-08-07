@@ -1,0 +1,6 @@
+<div class="content">
+	Total Cost to maintain the room tempreture between <%=params[:ac][:desired_temp].to_i - 2%> degrees and <%=params[:ac][:desired_temp].to_i + 2%>
+	degreees for <%=params[:ac][:time]%> minutes is <b>$<%=(@cost/100)%>.<%=(@cost%100)%> </b><br/>
+	<i><a href="/ac"> Return to Cost Calculation Form</a></i>
+</div>
+
