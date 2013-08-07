@@ -14,13 +14,13 @@
 	<%= form_for(:ac, :url => {:action => :cost}) do |form| %>
 	<table cellspacing="0" class="TableCSS">
 		<tr class="odd">
-			<td>Starting Tempreture (Farenheit)</td><td class="cent"><%= form.text_field :start_temp, :value => "79" %></td>
+			<td>Starting temperature (Farenheit)</td><td class="cent"><%= form.text_field :start_temp, :value => "79" %></td>
 		</tr>
 		<tr class="even">
 			<td>Total Time (minutes)</td><td class="cent"><%= form.text_field :time, :value => "360" %></td>
 		</tr>
 		<tr class="odd">
-			<td>Desired Tempreture (Farenheit)</td><td class="cent"><%= form.text_field :desired_temp, :value => "73"%></td>
+			<td>Desired temperature (Farenheit)</td><td class="cent"><%= form.text_field :desired_temp, :value => "73"%></td>
 		</tr>
 		<tr class="even">
 			<div class="tag_button">
@@ -31,7 +31,7 @@
 	<% end %>
     </div>
     <div class="content">
-    Assumption 1: The room tempreture must not be less than "Desired Tempreture" minus 2 degress or more than "Desired Tempreture" plus 2 degrees.<br/>
+    Assumption 1: The room temperature  must not be less than "Desired temperature" minus 2 degress or more than "Desired temperature" plus 2 degrees.<br/>
     Assumption 2: Each time the cooler() or heater() function is called, user pays 10 cents.<br/>
-    Assumption 3: Cooler() function will be called once room tempreture reaches "Desired Tempreture" plus 2 degrees. 
+    Assumption 3: Cooler() function will be called once room temperature  reaches "Desired temperature" plus 2 degrees. 
     </div>          
